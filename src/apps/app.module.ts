@@ -2,11 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { EnvModule } from '../infra/env/env.module';
-import {
-  MONGO_DB_HOUSI_CHALLENGE,
-  MONGO_DB_CONNECTION_URI,
-} from '../infra/persistence/mongo-db/assets/constants/constants';
-import { MongoDbModule } from '../infra/persistence/mongo-db/mongo-db.module';
+import { UserModule } from './user/user.module';
 
 const relativeRootDir = `${__dirname}/../..`;
 
@@ -17,10 +13,7 @@ const relativeRootDir = `${__dirname}/../..`;
       envFilePath: `${relativeRootDir}/.env`,
     }),
 
-    MongoDbModule.setup([], {
-      connectionUri: MONGO_DB_CONNECTION_URI,
-      connectionName: MONGO_DB_HOUSI_CHALLENGE,
-    }),
+    UserModule,
   ],
   controllers: [AppController],
   providers: [AppService],
