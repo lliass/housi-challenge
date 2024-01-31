@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { EnvModule } from '../infra/env/env.module';
-import { UserModule } from './user/user.module';
+import { AuthModule } from './auth/auth.module';
 
 const relativeRootDir = `${__dirname}/../..`;
 
@@ -13,7 +13,7 @@ const relativeRootDir = `${__dirname}/../..`;
       envFilePath: `${relativeRootDir}/.env`,
     }),
 
-    UserModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
