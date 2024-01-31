@@ -1,0 +1,380 @@
+[
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0ae"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-01-05T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-01-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0af"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-01-10T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-02-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b0"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-02-20T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-03-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b1"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-04-05T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-05-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b2"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-04-01T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-04-04T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b3"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-05-01T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-05-02T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b4"
+    },
+    "property": {
+      "_id": {
+        "$oid": "55b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 1"
+    },
+    "checkIn": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b5"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-01-05T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-01-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b6"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-01-10T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-02-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b7"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-02-20T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-03-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b8"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-04-05T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-05-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0b9"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-04-01T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-04-04T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0ba"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-05-01T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-05-02T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65b432ae59bfacb3ffc4b0bb"
+    },
+    "property": {
+      "_id": {
+        "$oid": "56b3aa2578dc1a90d3de53ee"
+      },
+      "name": "Unidade 2"
+    },
+    "checkIn": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "checkOut": {
+      "$date": "2024-12-10T00:00:00.000Z"
+    },
+    "residents": [
+      {
+        "userId": {
+          "$oid": "45b3aa2578dc1a90d3de53ee"
+        },
+        "name": "Morador 1",
+        "email": "morador1@email.com",
+        "phone": "(11) 99999-9999"
+      }
+    ]
+  }
+]
