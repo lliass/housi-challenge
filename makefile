@@ -6,6 +6,17 @@ PORT_DB=27017
 DATABASE_NAME=housi-challenge
 NEW_COLLECTION=property
 
+# Create developmenpt enviroment
+up:
+	docker-compose up -d
+
+# Delete developmenpt enviroment
+down:
+	docker-compose down --volumes --rmi all
+
+up-images:
+	docker-compose build --no-cache
+
 # Create mongo container
 create_docker_mongodb_container:
 	docker run -d --name ${CONATAINER_NAME_DB} -e MONGO_INITDB_ROOT_USERNAME=${USER_DB} -e MONGO_INITDB_ROOT_PASSWORD=${PASS_DB} -p ${PORT_DB}:${PORT_DB} -v ./.volumes/.mongodb-storage:/data/db mongo
