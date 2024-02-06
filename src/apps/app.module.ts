@@ -3,6 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { EnvModule } from '../infra/env/env.module';
 import { AuthModule } from './auth/auth.module';
+import { PropertyModule } from './property/property.module';
 
 const relativeRootDir = `${__dirname}/../..`;
 
@@ -14,6 +15,7 @@ const relativeRootDir = `${__dirname}/../..`;
     }),
 
     AuthModule,
+    PropertyModule,
   ],
   controllers: [AppController],
   providers: [AppService],
