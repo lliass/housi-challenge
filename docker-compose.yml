@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  application:
+    build:
+      context: .
+      dockerfile: dockerfile.app.dev
+    environment:
+      JWT_TOKEN: b4a2770aa2558b03004a3117b844ebb22bfbe123c62534762dccb71b6c3c3052
+      MONGO_DB_DATABASE_NAME: housi-challenge
+      MONGO_DB_CONNECTION_URI: mongodb://root:root@mongo-database:27017
+      MONGO_DB_CONNECTION_QUERY_OPTIONS: retryWrites=true&w=majority
+      PORT: 3000
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mongo-database
+
+  mongo-database:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - '27017:27017'
+    volumes:
+      - .volumes:/.mongodb-storage:/data/db
+
+  mongorestore:
+    image: mongo
+    command: mongorestore --host mongo-database:27017 --username root --password root --authenticationDatabase admin ./dump
+    depends_on:
+      - mongo-database
+    volumes:
+      - ./dump:/dump
+
+volumes:
+  .volumes:
