@@ -3,7 +3,7 @@ import {
   Matches,
   IsOptional,
   IsDateString,
-  IsString,
+  IsMongoId,
 } from 'class-validator';
 
 class BusyDatesQueryRequestDTO {
@@ -26,7 +26,7 @@ class BusyDatesQueryRequestDTO {
 
 class BusyDatesParamRequestDTO {
   @IsNotEmpty()
-  @IsString()
+  @IsMongoId()
   id: string;
 }
 
